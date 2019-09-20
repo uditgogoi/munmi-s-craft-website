@@ -239,7 +239,7 @@ p {
 
 
 .gallery {
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 .gallery-options {
@@ -255,10 +255,10 @@ p {
 .gallery-images {
     width: 75%;
     margin:auto;
-    padding: 1rem;
-    margin-top: 5rem;
-    box-shadow: 0 0 53px 1px rgb(201, 200, 200);
+    margin-top: 4rem;
+    /* box-shadow: 0 0 53px 1px rgb(201, 200, 200); */
     line-height: 0;
+    padding: 1rem;
    
   -webkit-column-count: 3;
   -webkit-column-gap:   0px;
@@ -272,6 +272,21 @@ p {
 .gallery-images img {
     width: 100% !important;
   height: auto !important;
+}
+
+.divider {
+    width: 50%;
+    margin:auto;
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.divider div {
+    width: 32%;
+    height: 1px;
+    background: rgb(99, 98, 98,0.4);
 }
 
 @media (max-width: 1200px) {
