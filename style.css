@@ -406,6 +406,16 @@ footer p{
     .primary-button {
         font-weight: 400;
     }
+    .divider{
+        width: 80%;
+        justify-content: space-between;
+    }
+    .divider div {
+        width: 27%;
+    }
+    .divider img {
+        width: 100px;
+    }
     .landing-view-text {
         width: 95%;
         margin:auto;
