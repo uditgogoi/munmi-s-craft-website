@@ -336,7 +336,25 @@ p {
     line-height: 1em; 
     font-weight: 300;
 }
-
+footer {
+    padding:0.5rem;
+    background: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+footer a {
+    font-size: 11px;
+    color: rgb(117, 134, 231);
+}
+footer a:hover {
+    color: rgb(25, 55, 226);
+}
+footer p{
+    font-size: 11px;
+    text-align: center;
+}
 @media (max-width: 1200px) {
     #photos {
     -moz-column-count:    3;
