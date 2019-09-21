@@ -399,21 +399,27 @@ footer p{
     column-count:         1;
     }
     .header-left{
-        /* display: none; */
-        margin-left: 0;
+        display: none;
+        /* margin-left: 0;
+        font-size: 11px; */
     }
     .landing-view-text {
         width: 97%;
         margin:auto;
-        margin-top: 1rem;
         display: block;
     }
+    .full-header {
+        justify-content: center;
+    }
     .full-header img {
-        width: 80px;
+        width: 70px;
     }
     .landing-view-text h1{
         font-weight: 300;
         font-size: 30px;
+    }
+    .wave {
+        display: none;
     }
     .button-wrapper {
         margin-top:0;
@@ -437,6 +443,9 @@ footer p{
     .contact-details {
         padding-left: 1rem;
         flex-wrap: wrap;
+    }
+    .contact-us-line {
+        margin-top: 3rem;
     }
     .contact-individual-wrapper {
         width:100%;
