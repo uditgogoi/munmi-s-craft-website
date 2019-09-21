@@ -403,8 +403,11 @@ footer p{
         /* margin-left: 0;
         font-size: 11px; */
     }
+    .primary-button {
+        font-weight: 400;
+    }
     .landing-view-text {
-        width: 97%;
+        width: 95%;
         margin:auto;
         display: block;
     }
@@ -428,7 +431,7 @@ footer p{
         display: none; 
     }
     .about-content,.gallery-options,.gallery-images,.contact-details,.contact {
-        width: 97%;
+        width: 95%;
         margin:auto;
         padding:0;
     }
@@ -449,6 +452,7 @@ footer p{
     }
     .contact-individual-wrapper {
         width:100%;
+        margin-top: 2rem;
     }
     .social-media {
         justify-content: left;
