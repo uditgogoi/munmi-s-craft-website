@@ -392,7 +392,7 @@ footer p{
   }
 
   /* mobile responsive */
-  @media (max-width: 460px) {
+  @media (max-width: 500px) {
     #photos {
     -moz-column-count:    1;
     -webkit-column-count: 1;
