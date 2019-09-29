@@ -227,7 +227,7 @@ h2,h3,h4 {
     margin-top: -5px;
     color: #ffff;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
    
 }
 
@@ -262,13 +262,23 @@ h2,h3,h4 {
 }
 
 
-.gallery {
-    padding-top: 5rem;
+
+.gallery:before{
+    display: block;
+    content: ' ';
+    position: absolute;
+    background-image: url('../img/gallery-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height: 383px;
+   width: 100%;
 }
 
 .gallery-options {
     width: 40%;
+    position: relative;
     margin:auto;
+    padding-top:9rem;
     display: flex;
     justify-content: space-around;
 }
@@ -464,8 +474,8 @@ footer p{
         margin:auto;
         padding:0;
     }
-    .gallery{
-        padding-top: 3rem;
+    .gallery:before{
+        display: none;
     }
    
     .contact-tagline {
