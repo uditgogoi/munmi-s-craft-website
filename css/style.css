@@ -274,6 +274,8 @@ h2,h3,h4 {
 }
 .gallery-options h3 {
     font-weight: 300;
+    border: 3px;
+    padding-bottom: 0.5rem;
 }
 
 .gallery-options h3:hover {
@@ -463,6 +465,9 @@ footer p{
         width: 95%;
         margin:auto;
         padding:0;
+    }
+    .gallery{
+        padding-top: 3rem;
     }
     .divider {
         margin-top: 5rem;
