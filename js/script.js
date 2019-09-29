@@ -25,8 +25,11 @@ function toggleTabs(id) {
         document.getElementById(val).style.borderBottom="none";
         document.getElementById(`${val}-items`).style.display="none";
 
-    })
-
-    
+    }) ; 
 }
+
+
+
+
+
 

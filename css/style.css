@@ -308,7 +308,7 @@ h2,h3,h4 {
 .divider {
     width: 50%;
     margin:auto;
-    margin-top: 10rem;
+    margin-top: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -320,9 +320,8 @@ h2,h3,h4 {
     background: rgb(99, 98, 98,0.4);
 }
 
-.testimonial-card {
+#testimonial {
     background: #fff;
-    padding: 2rem;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -469,9 +468,7 @@ footer p{
     .gallery{
         padding-top: 3rem;
     }
-    .divider {
-        margin-top: 4rem;
-    }
+   
     .contact-tagline {
         margin:auto;
         line-height: 1em;
