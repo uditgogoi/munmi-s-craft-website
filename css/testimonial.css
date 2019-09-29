@@ -4,35 +4,25 @@
 -----------------------*/
 .testimonials {
 	position: relative;
-	width: 100%;
+	width: 90%;
+	margin: auto;
 	text-align: center;
     overflow: hidden;
     padding: 2rem 0;
 }
-.testimonials::before {
-	content: '';
-	display: block;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-}
+
 .testimonial-items{
 	margin: 0 auto;
 	padding: 7rem 0;
     transition: transform .6s;
     display: flex;
-    justify-content: center;
-}
-.testimonial-items::after {
-	content: '';
-	display: table;
-	clear: both;
+    justify-content: space-around;
 }
 .testimonial-item{
    
 	list-style: none;
 	cursor: pointer;
-	max-width: 550px;
+	max-width: 340px;
 	background: #fff;
 	border-radius: 10px;
 	box-shadow: 0 0 10px 2px rgba(0,0,0,.1);
