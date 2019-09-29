@@ -456,6 +456,11 @@ footer p{
         margin:auto;
         padding:0;
     }
+
+    .gallery-options {
+        padding-top:3rem;
+    }
+
     .gallery:before{
         display: none;
     }
