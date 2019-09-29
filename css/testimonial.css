@@ -13,15 +13,15 @@
 
 .testimonial-items{
 	margin: 0 auto;
-	padding: 7rem 0;
+	padding: 1rem 0;
     transition: transform .6s;
-    display: flex;
+	display: flex;
+	flex-wrap: wrap;
     justify-content: space-around;
 }
 .testimonial-item{
-   
+	margin-top: 5rem;
 	list-style: none;
-	cursor: pointer;
 	max-width: 340px;
 	background: #fff;
 	border-radius: 10px;
@@ -38,7 +38,7 @@
 .testimonial-item blockquote {
 	width: 80%;
 	margin: 0 auto;
-	padding: 2rem 0;
+	padding: 1rem 0;
 }
 /* .testimonials li.current_slide {
 	transform: scale(1);
@@ -48,13 +48,13 @@
 .quote {
 	position: relative;
 	z-index: 1;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 2.5srem;
 	color: #585D6D;
 }
 .quote::before {
 	content: '\201c';
-	font-size: 12rem;
+	font-size: 10rem;
 	color: #F1AD56;
 	opacity: .4;
 	font-family: serif;
