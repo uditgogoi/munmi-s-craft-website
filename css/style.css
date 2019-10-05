@@ -406,6 +406,10 @@ footer p{
     -webkit-column-count: 1;
     column-count:         1;
     }
+    .about-us {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
     .header-left{
         display: none;
         /* margin-left: 0;
