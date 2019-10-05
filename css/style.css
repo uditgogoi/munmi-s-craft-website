@@ -404,7 +404,16 @@ footer p{
     #photos {
     -moz-column-count:    1;
     -webkit-column-count: 1;
-    column-count:         1;
+    column-count: 1 !important;
+    }
+    .gallery-images {
+       
+        -webkit-column-count: 2;
+        -webkit-column-gap:   0px;
+        -moz-column-count:    2;
+        -moz-column-gap:      0px;
+        column-count:         2;
+        column-gap:           15px; 
     }
     .about-us {
         padding-top: 4rem;
@@ -520,6 +529,11 @@ footer p{
     -webkit-column-count: 2;
     column-count:         2;
     }
+
+    .gallery-options{
+        width: 80%;
+    }
+    
     .wave {
         display: none !important;
     }
@@ -535,6 +549,9 @@ footer p{
     }
     .testimonial-item {
         max-width:340px;
+    }
+    .contact-details{
+        width: 95%;
     }
   }
 
