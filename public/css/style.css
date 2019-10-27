@@ -33,6 +33,7 @@ nav {
 }
 nav a {
     color: #585858 !important;
+    transition: 0.3s;
 
 }
 nav a:hover {
@@ -74,9 +75,10 @@ h2,h3,h4 {
     font-size: 1.2rem;
     cursor: pointer;
     font-weight: 200;
+    transition: 0.3s;
 }
 .btn:hover {
-    box-shadow: 0 0 15px 2px rgba(194, 192, 192, 0.5);
+    box-shadow: 0 0 15px 2px rgba(173, 173, 173, 0.5);
 }
 
 .primary-button {
@@ -286,6 +288,7 @@ h2,h3,h4 {
     font-weight: 300;
     border: 3px;
     padding-bottom: 0.5rem;
+    transition: 0.3s;
 }
 
 .gallery-options h3:hover {
@@ -313,6 +316,7 @@ h2,h3,h4 {
     width: 100% !important;
   height: auto !important;
   margin-top:1rem; 
+  /* filter: grayscale(100%); */
 }
 
 .divider {
@@ -388,6 +392,7 @@ footer {
 footer a {
     font-size: 11px;
     color: rgb(117, 134, 231);
+    transition: 0.3s;
 }
 footer a:hover {
     color: rgb(25, 55, 226);
