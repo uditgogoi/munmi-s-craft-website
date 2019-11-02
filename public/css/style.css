@@ -265,7 +265,7 @@ h2,h3,h4 {
 
 
 
-.gallery:before{
+/* .gallery:before{
     display: block;
     content: ' ';
     position: absolute;
@@ -274,13 +274,13 @@ h2,h3,h4 {
     background-size: cover;
    min-height: 383px;
    width: 100%;
-}
+} */
 
 .gallery-options {
     width: 40%;
     position: relative;
     margin:auto;
-    padding-top:9rem;
+    padding-top:3rem;
     display: flex;
     justify-content: space-around;
 }
