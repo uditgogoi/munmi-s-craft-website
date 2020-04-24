@@ -3,6 +3,10 @@ button color #32cd8c
 text color #585858
 */
 
+*{
+    image-orientation: none;
+image-orientation: from-image;
+}
 
 body,html {
     margin: 0;

@@ -1,5 +1,5 @@
-const tabIds= ["jwellery-tab","frames-tab","decors-tab"];
-const items= ["jwellery-tab-items","frames-tab-items","decors-tab-items"];
+const tabIds= ["frames-tab","decors-tab","jwellery-tab"];
+const items= ["frames-tab-items","decors-tab-items","jwellery-tab-items"];
 
 document.addEventListener("click", function(event){
     var clicked = event.target;
